@@ -6,6 +6,7 @@ import "./styles/main.css";
 
 import { GameBanner } from "./components/GameBanner";
 import { CreateAdBanner } from "./components/CreateAdBanner";
+import { CreateAdModal } from "./components/CreatAdModal";
 
 
 interface Game {
@@ -52,6 +53,7 @@ function App() {
       </div>
       <Dialog.Root>
         <CreateAdBanner />
+        <CreateAdModal  />
       </Dialog.Root>
     </div>
   );
